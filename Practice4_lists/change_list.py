@@ -11,7 +11,7 @@ print(listA)
 # In this list, replace the elements 3,4,5,6 with elements 30,40,50,60,70,80
 
 listA = [1, 2, 3, 4, 5, 6, 7, 8]
-listA[2:7] = [30, 40, 50, 60, 70, 80]
+listA[2:6] = [30, 40, 50, 60, 70, 80]
 print(listA)
 
 # 3. listA = [1, 2, 3, 4, 5, 6, 7, 8]
@@ -62,6 +62,8 @@ print(id(listA))
 listA = [1, 2, 3, 4, 5, 6, 7, 8]
 rev = listA[::-1]
 print(rev)
+
+# What will be the output
 
 listA = [4,5,6,7,8,9,10]
 listA[2:5] = []
