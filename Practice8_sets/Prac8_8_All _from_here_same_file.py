@@ -1,5 +1,5 @@
 # 8. How will you find all the common characters in three strings s1, s2 and s3
-# Ans: s1&s2&s3
+# Ans: set(s1)&set(s2)&set(s3)
 # You are given these 2 sets toppers and champions, where toppers is
 # a set of roll numbers of academic toppers of the school and champions is a set of
 # roll numbers of sports champions of the school.
@@ -25,4 +25,5 @@ print(champions.difference(toppers))
 # 13. Find a set of all students who are champions as well as toppers
 print(champions.intersection(toppers))
 # 14. Find a set of all students who are either champions or toppers.
-# students difference union(toppers and champions)
+
+print(toppers | champions)

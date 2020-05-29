@@ -11,3 +11,6 @@ L2 = [2,3,1,4]
 L1_set = set(L1)
 L2_set = set(L2)
 print(L1_set.difference(L2_set))
+# More easy one
+set(L1) == set(L2)
+set(L1_set) == str(L2_set)
