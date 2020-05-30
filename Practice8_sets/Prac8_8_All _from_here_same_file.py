@@ -11,7 +11,7 @@ champions  = { 'id19', 'id23', 'id78', 'id99', 'id79', 'id13', 'id56', 'id45', '
 
 # 9. From the set of toppers, remove student with rollnumber id12
 toppers.remove('id12')
-print('After removing id12:',toppers)
+print('After removing id12:', toppers)
 
 # 10. From the set of champions, add two students with roll numbers id45 and id19
 champions.add('id45')
