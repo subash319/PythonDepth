@@ -18,15 +18,15 @@ class Circle:
         self.radius = radius
 
     def area(self):
-        return 3.14 * self.radius * self.radius
+        return 3.14 * self._radius * self._radius
 
     @property
     def diameter(self):
-        return 2*self.radius
+        return 2*self._radius
 
     @property
     def circumference(self):
-        return 2 * 3.14 * self.radius
+        return 2 * 3.14 * self._radius
 
     @property
     def radius(self):
