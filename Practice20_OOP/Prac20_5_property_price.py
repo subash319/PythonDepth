@@ -9,7 +9,7 @@ class Book:
         self.author = author
         self.publisher = publisher
         self.pages = pages
-        self._price = price
+        self.price = price
         self.copies = copies
 
     def display(self):
